@@ -43,21 +43,21 @@ nav img{
 .text-style{
     color: rgb(239, 11, 186);
 }
-.goat-section{
+.banner-section{
     width:1450px;
     height:auto;
     display: flex;
     background: #f7ecfb;
 
 }
-.goat-title{
+.banner-title{
     color: #0B0223;
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
 }
-.goat-text-style{
+.banner-text-style{
     text-align: center;
     font-size: 4rem;
     font-weight: 800;
@@ -67,7 +67,7 @@ nav img{
    margin-top:40px;
 
 }
-.goat-paragraph{
+.banner-paragraph{
     color: #534C64;
     font-size: 1rem;
     font-weight: 500;

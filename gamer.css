@@ -132,4 +132,48 @@ nav img{
     font-weight: 700;
 }
 
+   .instant-section{
+    width: 1450px;
+    display: flex;
+    background-color: #FFF;
+    margin-top: 50px;
+   } 
+   .play-text-style{
+    color:#e81dec;
+    font-size: 2rem;
+    font-weight: 600;
+   
     
+   }
+   .instant{
+    margin-left: 120px;
+    margin-top: 100px;
+    text-align: center;
+   
+
+   }
+   .instant h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+   }
+.instant-paragraph-section{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.image-style{
+   position: relative;
+   right:100px;
+   bottom:200px;
+ 
+ 
+}
+.instant-section-img{
+    height:80%;
+    margin-left: 50px;
+}

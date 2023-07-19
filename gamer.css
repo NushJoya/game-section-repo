@@ -2,6 +2,9 @@
     max-width: 1920px;
     margin:auto;
 }
+.text-style{
+    color: rgb(239, 11, 186);
+}
 
 header{
     width:1450px;
@@ -40,9 +43,7 @@ nav img{
     width:70px;
     height:35px;
 }
-.text-style{
-    color: rgb(239, 11, 186);
-}
+
 .banner-section{
     width:1450px;
     height:auto;
@@ -137,6 +138,7 @@ nav img{
     display: flex;
     background-color: #FFF;
     margin-top: 50px;
+   
    } 
    .play-text-style{
     color:#e81dec;
@@ -176,4 +178,60 @@ nav img{
 .instant-section-img{
     height:80%;
     margin-left: 50px;
+}
+.button-section{
+    width: 1450px;
+    height:400px;
+    background-color: rgb(240, 224, 236);
+    margin-top:50px;
+    
+}
+.button-section-style{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    float:left ;
+    width:50%;
+    height:50%;
+  
+
+
+}
+.image-button{
+    width:280px;
+    height: 80px;
+   display: inline-flex;
+   align-items: center;
+  
+   border:none;
+   border-radius:50px ;
+
+   
+}
+ .image-button img{
+    width:50px;
+    height:50px;
+    
+   }
+.image-button:hover{
+    border-radius: 50px;
+}
+.footer-container{
+    width: 1450px;
+    height:500px;
+    background-color:  #0B0223;
+}
+.footer-title {
+    
+      font-size: 2rem;
+      font-weight: 600;
+      color:white;
+
+}
+.footer-title img{
+    width:50px;
+    height: 30px;
 }

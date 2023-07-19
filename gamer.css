@@ -205,11 +205,8 @@ nav img{
     height: 80px;
    display: inline-flex;
    align-items: center;
-  
-   border:none;
-   border-radius:50px ;
-
-   
+  border:none;
+ 
 }
  .image-button img{
     width:50px;
@@ -223,15 +220,40 @@ nav img{
     width: 1450px;
     height:500px;
     background-color:  #0B0223;
+    color:white;
+    text-align: center;
 }
 .footer-title {
     
       font-size: 2rem;
       font-weight: 600;
       color:white;
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 20px;
 
 }
 .footer-title img{
     width:50px;
     height: 30px;
+}
+.footer-paragraph, .footer-second-paragraph{
+    display: inline-flex;
+    justify-content: space-around;
+    gap:20px;
+    
+}
+.icon-style{
+    color:white;
+    margin-right: 500px;
+    margin-top: 30px;
+    font-size: 3rem;
+   display: flex;
+    margin-left: 500px;
+    
+}
+.footer-second-paragraph{
+    margin-top:25px;
+    color: rgba(255, 255, 255, 0.60);
+    margin-bottom: 30px;
 }

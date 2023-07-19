@@ -2,10 +2,11 @@
     max-width: 1920px;
     margin:auto;
 }
+/*primary color*/
 .text-style{
     color: rgb(239, 11, 186);
 }
-
+/*header section*/
 header{
     width:1450px;
     height:100px;
@@ -44,6 +45,10 @@ nav img{
     height:35px;
 }
 
+
+    
+/*header section end */
+/* banner section start*/
 .banner-section{
     width:1450px;
     height:auto;
@@ -91,6 +96,8 @@ nav img{
 .rogue-button{
     background-color: rgb(31, 171, 242);
 }
+/*banner secction end*/
+/*second section start*/
 .second-section{
     width:1450px;
     display: flex;
@@ -132,7 +139,28 @@ nav img{
     font-size:2rem;
     font-weight: 700;
 }
-
+/*second section end*/
+/*online section start*/
+.online-game-section{
+    width:1450px;
+    height:auto;
+    margin-top: 50px;
+    margin-left:50px;
+}
+.online-game-title{
+    text-align: center;
+    margin-bottom:10px;
+}
+.online-game-title h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.online-section-text-style{
+    color: #a772f2;
+}
+/*online section end*/
+/*instant section start*/
    .instant-section{
     width: 1450px;
     display: flex;
@@ -144,8 +172,6 @@ nav img{
     color:#e81dec;
     font-size: 2rem;
     font-weight: 600;
-   
-    
    }
    .instant{
     margin-left: 120px;
@@ -179,6 +205,8 @@ nav img{
     height:80%;
     margin-left: 50px;
 }
+/*instant section end*/
+/*button section start*/
 .button-section{
     width: 1450px;
     height:400px;
@@ -220,6 +248,8 @@ nav img{
 .image-button:hover{
     border-radius: 50px;
 }
+/*button section end*/
+/*footer section start*/
 .footer-container{
     width: 1450px;
     height:500px;
@@ -260,4 +290,27 @@ nav img{
     margin-top:25px;
     color: rgba(255, 255, 255, 0.60);
     margin-bottom: 30px;
+}
+/*footer section end*/
+
+/*responsive for small device*/
+@media  screen and(max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding:0;
+    }
+    nav>ul{
+        flex-direction: column;
+
+    }
+    nav img{
+        width:auto;
+        height: auto;
+    }
+    header{
+        width:auto;
+        height: auto;
+
+    }
+    
 }
